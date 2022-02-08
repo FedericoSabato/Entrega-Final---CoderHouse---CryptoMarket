@@ -231,6 +231,12 @@ $.get(URLGET,function(response,state){
     
             let x = parseFloat(pricesArray[index]);
 
+            if(localStorage.getItem("Currency")== null){    //Si aun no se ingreso dinero, por ende no hay divisa:
+
+                localStorage.setItem("Currency", " ")
+
+            }
+
             $("#tableBody").append(`
                 <tr> 
                     <td>${cryptos[index].name}</td>
