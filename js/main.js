@@ -233,7 +233,7 @@ $.get(URLGET,function(response,state){
 
             if(localStorage.getItem("Currency")== null){    //Si aun no se ingreso dinero, por ende no hay divisa:
 
-                localStorage.setItem("Currency", " ")
+                localStorage.setItem("Currency", " ");
 
             }
 
