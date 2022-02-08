@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Economica', sans-serif;
+    font-size: 400%;
+    padding: 10px;
+    display: inline-block;
+}
+.log{
+    font-size: 150%;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+body{
+    margin: 1%;
+}
+nav {
+    font-size: 150%;
+    color:black;
+}
+.cryptoGrid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    margin: 10px;
+}
